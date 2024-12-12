@@ -353,6 +353,14 @@ nav h4 {
   }
 }
 @media (max-width: 768px) {
+  nav h3{
+    font-size: 5vw;
+  }
+  nav h4 {
+    z-index: 100;
+    font-size: 5vw;
+    font-weight: 100;
+  }
   .menu {
     display: none;
   }
@@ -363,7 +371,7 @@ nav h4 {
     position: absolute;
     width: 100%;
     background-color: #edece7;
-    top: -520px;
+    top: -1000px;
     opacity: 0;
   }
   .menu-sec {
